@@ -29,7 +29,7 @@ body {
 .sidebar-logo {
     height: 100px;
     margin-bottom: -150px;
-    border-bottom: 1px white solid;
+    border-bottom: 4px #FFBF00 solid;
     padding-bottom: 15px;
     margin-top: -40px;
     margin-left: 5px;
