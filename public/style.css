@@ -34,3 +34,16 @@ body {
     margin-top: -40px;
     margin-left: 5px;
 }
+
+.group-chatlist-title {
+    color: #FFBF00;
+    font-size: 25px;
+    border-bottom: 2px solid #ffbf00;
+    display: inline-block;
+    margin: 20px;
+}
+
+.plus-sign {
+    margin-bottom: -5px;
+    margin-left: 10px;
+}
