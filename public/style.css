@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .side-bar {
     background-color: #1d1f21;
     height: 85vh;
@@ -5,4 +11,17 @@
 
 .icon-sidebar {
     color: #ffd829;
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.icon-friends {
+    margin-top: 120px;
+}
+
+.icon-sidebar-subtitle {
+    color: #ffdb29;
+    text-align: center;
+    margin-top: -20px;
 }
