@@ -47,3 +47,15 @@ body {
     margin-bottom: -5px;
     margin-left: 10px;
 }
+
+.dm-list {
+    background-color: #2B2D33;
+}
+
+a {
+    color: #ffbf00;
+}
+
+a:hover {
+    color: #ffbf00
+}
