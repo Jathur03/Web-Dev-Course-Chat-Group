@@ -64,19 +64,3 @@ a:hover {
     background-color: #43474f;
     height: 15vh
 }
-
-.icon-bottom-status {
-    color: #ffbf00;
-    font-size: 60px;
-}
-
-.icon-bottom-settings {
-    margin-left: 350px;
-    margin-top: -75px;
-}
-
-.icon-bottom-account {
-    position: relative;
-    left: 270px;
-    top: 23px;
-}
