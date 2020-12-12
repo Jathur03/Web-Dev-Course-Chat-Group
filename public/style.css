@@ -64,3 +64,7 @@ a:hover {
     background-color: #43474f;
     height: 15vh
 }
+
+.message-box {
+    background-color: #1d1e20;
+}
