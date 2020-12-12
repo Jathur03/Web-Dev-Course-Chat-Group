@@ -68,3 +68,17 @@ a:hover {
 .message-box {
     background-color: #1d1e20;
 }
+
+.people-bar {
+    background-color: #444546;
+}
+
+.text-bar {
+    background-color: #2a2d33;
+}
+
+.plus-text-bar {
+    color: #ffbf00;
+    font-size: 70px;
+    margin-top: 20px;
+}
