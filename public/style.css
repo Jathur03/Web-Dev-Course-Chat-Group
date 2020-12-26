@@ -52,3 +52,13 @@ body {
     left: 20px;
     top: 10px
 }
+
+.search-bar {
+    border-radius: 50px;
+    border: none;
+    padding: 10px 30px;
+    background-color: #444546;
+    position: relative;
+    left: 1000px;
+    top: -43px
+}
