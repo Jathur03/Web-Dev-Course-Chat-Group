@@ -39,3 +39,16 @@ body {
     font-weight: 800;
     font-style: italic;
 }
+
+.chat-title-box {
+    background-color:#2a2d32;
+    display: block;
+    height: 10vh;
+}
+
+.chat-title {
+    color: #fff;
+    position: relative;
+    left: 20px;
+    top: 10px
+}
