@@ -3,3 +3,38 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.top-stripe {
+    background-color: #ffbf28;
+    height: 5vh;
+}
+
+.side-bar {
+    background-color: #222328;
+    height: 90vh;
+}
+
+    background-color: #1d1e20;
+}
+
+.bottom-stripe {
+    background-color: #ffbf28;
+    height: 5vh;
+}
+
+.logo {
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 7px;
+    border-bottom: 5px solid #ffbf28;
+    padding-bottom: 10px;
+}
+
+.title-text {
+    transform: rotate(-90deg);
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin-top: 320px;
+    font-weight: 800;
+    font-style: italic;
+}
