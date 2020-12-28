@@ -62,3 +62,43 @@ body {
     left: 1000px;
     top: -43px
 }
+
+.message-box {
+    background-color: #2b2d33;
+    position: relative;
+    top: 475px;
+    height: 10vh;
+}
+
+.message-bar {
+    border-radius: 100px;
+    border: none;
+    background-color: #444546;
+    padding: 10px 520px;
+    text-align: left;
+    margin-top: 12px;
+    margin-left: 70px;
+}
+
+.message-bar::placeholder {
+    position: relative;
+    right: 500px;
+}
+
+.add-icon {
+    color: #fff;
+    font-size: 50px;
+    position: relative;
+    bottom: 47px;
+    left: 13px;
+    color: #444546;
+}
+
+.user-name {
+    color: #ffbf28;
+    font-size: 25px
+}
+
+.user-message {
+    color: #fff
+}
