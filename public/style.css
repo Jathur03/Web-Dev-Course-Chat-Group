@@ -102,3 +102,8 @@ body {
 .user-message {
     color: #fff
 }
+
+.name-box {
+    height: 90vh;
+    background-color: #1d1e20;
+}
