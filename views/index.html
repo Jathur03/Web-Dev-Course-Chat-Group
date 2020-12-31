@@ -22,7 +22,32 @@
             </div>
 
             <div class="col-md-12 name-box">
-
+                <main class="join-main">
+                    <form action="chat.html">
+                        <div class="form-control">
+                            <label for="username">Username</label>
+                            <input
+                                type="text"
+                                name="username"
+                                id="username"
+                                placeholder="Enter username..."
+                                required
+                            />
+                        </div>
+                        <div class="form-control">
+                            <label for="room">Room</label>
+                            <select name="room" id="room">
+                                <option value="JavaScript">Room 1</option>
+                                <option value="Python">Room 2</option>
+                                <option value="PHP">Room 3</option>
+                                <option value="C#">Room 4</option>
+                                <option value="Ruby">Room 5</option>
+                                <option value="Java">Room 6</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Join Chat</button>
+                    </form>
+                </main>
             </div>
 
             <div class="col-md-12 bottom-stripe">
