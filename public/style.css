@@ -109,5 +109,23 @@ body {
 }
 
 .btn-join {
-    
+    position: relative;
+    left: 44.5%;
+    padding: 1% 2%;
+    margin-top: 70px;
+    display: inline;
+}
+
+.username {
+    font-size: 50px;
+    padding-top: -0px;
+}
+
+.join-main {
+    text-align: center;
+}
+
+.form-control {
+    background-color: #1d1e20;
+    border: none;
 }
