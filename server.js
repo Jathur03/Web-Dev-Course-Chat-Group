@@ -10,14 +10,11 @@ const io = socketio(server);
 // Run when client connects
 io.on('connection', socket => {
     // Welcome current user
-    socket.emit('message', formatMessage(botName, 'Welcome to ChatCord!'));
-
-    // Broadcast when a user connects
-    socket.broadcast.emit('message', formatMessage(botName, 'A user has joined the chat'));
+    socket.emit('message', 'Welcome To Hyper');
 
     // Runs when a client disconnects
     socket.on('disconnect', () => {
-        io.emit('message', formatMessage(botName, 'A user has left the chat'));
+        io.emit('message', 'A user has left the chat');
     });
 });
 
