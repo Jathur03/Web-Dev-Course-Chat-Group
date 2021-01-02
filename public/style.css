@@ -66,7 +66,7 @@ body {
 .message-box {
     background-color: #2b2d33;
     position: relative;
-    top: 475px;
+    top: 470px;
     height: 10vh;
 }
 
@@ -94,15 +94,6 @@ body {
     color: #444546;
 }
 
-.user-name {
-    color: #ffbf28;
-    font-size: 25px
-}
-
-.user-message {
-    color: #fff
-}
-
 .name-box {
     height: 90vh;
     background-color: #1d1e20;
@@ -128,4 +119,9 @@ body {
 .form-control {
     background-color: #1d1e20;
     border: none;
+}
+
+.chat-messages {
+    overflow-y: scroll;
+    max-height: 500px;
 }
