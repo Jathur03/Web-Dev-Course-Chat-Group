@@ -18,6 +18,6 @@ socket.on('message', message => {
 function outputMessage(message) {
     const div = document.createElement('div');
     div.classList.add('message');
-    div.innerHTML = `<p class="text-warning">${message}</p>`
+    div.innerHTML = `<span></span><p class="text-warning">${message}</p>`
     document.querySelector('.chat-messages').appendChild(div);
 };
