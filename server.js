@@ -12,10 +12,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Run when client connects
 io.on('connection', socket => {
+    socket.emit('message', 'Welcome to Hyper');
 
-    // Runs when a client disconnects
-    socket.on('disconnect', () => {
-        io.emit('message', 'A user has left the chat');
+    socket.on('chatMessage', (msg) => {
+        io.emit('message', formatMessage('USER', msg));
     });
 });
 
