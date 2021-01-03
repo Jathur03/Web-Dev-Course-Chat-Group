@@ -15,8 +15,15 @@ app.use(express.static(path.join(__dirname, 'public')));
 io.on('connection', socket => {
     socket.emit('message', 'Welcome to Hyper');
 
+    // Listen for chatMessage
     socket.on('chatMessage', (msg) => {
-        io.emit('message', formatMessage('USER', msg));
+        io.emit('message', msg);
+    });
+
+    socket.broadcast.emit('message', formatMessage('User', 'A user has joined the chat'));
+
+    socket.on('disconnect', () => {
+        io.emit('message', formatMessage('A user has left the chat'));
     });
 });
 

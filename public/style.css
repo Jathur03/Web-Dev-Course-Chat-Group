@@ -63,7 +63,7 @@ body {
     top: -43px
 }
 
-.chat-form {
+#chat-form {
     background-color: #2b2d33;
     position: relative;
     top: 470px;
