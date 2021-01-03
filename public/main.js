@@ -5,12 +5,13 @@ const socket = io();
 
 socket.on('message', message => {
     console.log(message);
+    outputMessage(message);
 });
 
 function outputMessage(message) {
     const div = document.createElement('div');
     div.classList.add('message');
-    div.innerHTML = `<p class="meta">${message.username} <span>${message.time}</span></p>
+    div.innerHTML = `<p class="meta">Hello <span>5:89</span></p>
     <p class="text">
         ${message.text}
     </p>`;
