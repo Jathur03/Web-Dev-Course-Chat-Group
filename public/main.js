@@ -20,4 +20,4 @@ function outputMessage(message) {
     div.classList.add('message');
     div.innerHTML = `<span></span><p class="text-warning">${message}</p>`
     document.querySelector('.chat-messages').appendChild(div);
-};
+}  
